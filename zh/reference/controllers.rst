@@ -21,7 +21,7 @@
 
 所有的控制器都必须以“Controller”为结尾，所有的Actions都是以“Action”结尾。下面是一个控制器的示例：
 
-译者注：也并非所有的控制器都必须以“Controller”为结尾的，比如我们一般会写一个名为 “ContollerBase”,让他继承自　\Phalcon\Mvc\Controller.　同时我们自己应用程序中的其他控制器都再继承自 ContollerBase.这么来做的话，则控制器ContollerBase就不是以 “Controller”为结尾了。如果严谨一点来讲可以这么说，所以用于用户请求的控制器必须以“Controller”为结尾
+译者注：也并非所有的控制器都必须以“Controller”为结尾的，比如我们一般会写一个名为 “ContollerBase”,让他继承自　\Phalcon\Mvc\Controller.　同时我们自己应用程序中的其他控制器都再继承自 ContollerBase.这么来做的话，则控制器ContollerBase就不是以 “Controller”为结尾了。如果严谨一点来讲可以这么说，所有用于用户请求的控制器必须以“Controller”为结尾
 
 .. code-block:: php
 
